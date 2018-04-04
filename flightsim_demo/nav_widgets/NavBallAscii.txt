@@ -1,0 +1,163 @@
+Navball -- much like a traditional Artificial Horizon, but designed for tracking multiple targets at once, rather than keeping a single heading. Can be zoomed in / out.
+
+Symbols will 
+
+Traditional Reticule:
+      ┌─────────────────────┐
+   ┌──┘*********************└──┐
+  ┌┘***┌───────────────────┐***└┐
+ ┌┘*┌──┘                   └──┐*└┐
+┌┘*┌┘                         └┐*└┐
+│*┌┘            ───            └┐*│
+│*│              ─              │*│
+│*│         45 ───── 45         │*│
+│*│              ─              │*│
+│*│             ─┼─             │*│
+│*│              ┼              │*│
+│*│   ─────┐ ──── ──── ┌─────   │*│
+│*│              ┼              │*│
+│*│             ─┼─             │*│
+│*│              ─              │*│
+│*│         45 ───── 45         │*│
+│*│              ─              │*│
+│*└┐            ───            ┌┘*│
+└┐*└┐                         ┌┘*┌┘
+ └┐*└──┐                   ┌──┘*┌┘
+  └┐***└───────────────────┘***┌┘
+   └──┐*********************┌──┘
+      └─────────────────────┘
+
+Minimal Reticule:
+      ┌─────────────────────┐
+   ┌──┘                     └──┐
+  ┌┘   ┌───────────────────┐   └┐
+ ┌┘ ┌──┘                   └──┐ └┐
+┌┘ ┌┘                         └┐ └┐
+│ ┌┘                           └┐ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │          ───┐ ┌───          │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ └┐                           ┌┘ │
+└┐ └┐                         ┌┘ ┌┘
+ └┐ └──┐                   ┌──┘ ┌┘
+  └┐   └───────────────────┘   ┌┘
+   └──┐                     ┌──┘
+      └─────────────────────┘
+
+Futuristic Reticule:
+      ┌─────────────────────┐
+   ┌──┘                     └──┐
+  ┌┘   ┌───────────────────┐   └┐
+ ┌┘ ┌──┘                   └──┐ └┐
+┌┘ ┌┘                         └┐ └┐
+│ ┌┘                           └┐ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │             \ /             │ │
+│ │            ─   ─            │ │
+│ │             / \             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ └┐                           ┌┘ │
+└┐ └┐                         ┌┘ ┌┘
+ └┐ └──┐                   ┌──┘ ┌┘
+  └┐   └───────────────────┘   ┌┘
+   └──┐                     ┌──┘
+      └─────────────────────┘
+
+Cross Reticule:
+      ┌─────────────────────┐
+   ┌──┘                     └──┐
+  ┌┘   ┌───────────────────┐   └┐
+ ┌┘ ┌──┘                   └──┐ └┐
+┌┘ ┌┘                         └┐ └┐
+│ ┌┘                           └┐ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │              │              │ │
+│ │           ──   ──           │ │
+│ │              │              │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ │                             │ │
+│ └┐                           ┌┘ │
+└┐ └┐                         ┌┘ ┌┘
+ └┐ └──┐                   ┌──┘ ┌┘
+  └┐   └───────────────────┘   ┌┘
+   └──┐                     ┌──┘
+      └─────────────────────┘
+
+Good Symbols:
+
+🛧🛨🛦
+CIRCLED SYMBOLS: ⊛⊜⎊⊗⊕❂✪①②ⒶⒷⒸ③
+NKO SYMBOL GBAKURUNEN:߷
+BATAK SYMBOL: ᯼᯽᯾
+ALCHEMICAL SYMBOL (GOLDMINE!!!): 🜁🜂🜃🜄🜉🜊🜔🜕🜛🜨🜲🜶🜸🜹🜷🝔🝕🝧🝩🝱
+POWER / SOFTWARE SYMBOLS: ⏼⏾⎔
+MISC SYMBOLS:
+	"ANGER SYMBOL" 💢 <- Seems to take up two chars.
+                       🤂
+⧯ ⧮
+⬔ ⬕
+🙪
+🞖
+
+PAIRS
+🜂 🜄
+🜁 🜃
+⯅ ⯆
+
+߷ 🜛
+᯽ 🙪
+⧯ ⧮
+⬔ ⬕
+
+┼┼┼
+┼⯅┼Orbit Prograde
+┼┼┼
+┼⯆┼Orbit Retrograde
+┼┼┼
+┼🜁┼Surface Prograde
+┼┼┼
+┼🜃┼Surface Retrograde
+┼┼┼
+┼⬔┼Orbit Normal
+┼┼┼
+┼⬕┼Orbit Anti-Normal
+┼┼┼
+┼߷┼Orbit Radial-In
+┼┼┼
+┼🜛┼Orbit Radial-Out
+┼┼┼
+┼᯽┼Target
+┼┼┼
+┼🙪┼Anti-Target
+┼┼┼
+┼🜊┼Target Heading -- (Requires communication with other ship and/or advanced sensors)
+┼┼┼
+┼🜂┼Target Prograde
+┼┼┼
+┼🜄┼Target Retrograde
+┼┼┼
+┼🤂┼Manuver
+┼┼┼
+
+ⒶⒷⒸ Experiment Waypoints
+
+
