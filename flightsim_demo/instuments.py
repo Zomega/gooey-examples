@@ -2,10 +2,10 @@ import datetime
 import time
 from math import sin
 
-from gooey.app.CursesApplication import CursesApplication
+from gooey.app.curses_application import CursesApplication
 
 from gooey.core import Model, Controller
-from gooey.widgets.CompositeWidget import CompositeWidget
+from gooey.widgets.composite_widget import CompositeWidget
 
 from MissionTimer import MissionTimer
 from Altimeter import Altimeter

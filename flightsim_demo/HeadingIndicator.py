@@ -4,8 +4,8 @@
 from gooey.core.widget import *
 
 from gooey.core.canvas import *
-from gooey.canvas.AsciiCanvas import *
-from gooey.canvas.AsciiSprite import *
+from gooey.canvas.ascii_canvas import *
+from gooey.canvas.ascii_sprite import *
 
 from gooey.core.event import *
 from gooey.core.event_type import *
