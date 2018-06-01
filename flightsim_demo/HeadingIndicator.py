@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from gooey.core.Widget import *
+from gooey.core.widget import *
 
-from gooey.core.Canvas import *
+from gooey.core.canvas import *
 from gooey.canvas.AsciiCanvas import *
 from gooey.canvas.AsciiSprite import *
 
-from gooey.core.Event import *
-from gooey.core.EventType import *
+from gooey.core.event import *
+from gooey.core.event_type import *
 
 SPRITE_CHARS = u'''
 ┌──┬──┬──┬──┬──┼──┬──┬──┬──┬──┐
